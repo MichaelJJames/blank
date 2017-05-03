@@ -1,1 +1,4 @@
 infrastructure: ^3.9.3
+url_rules:
+  mysite:
+    - '^/assets/': 'apache'
