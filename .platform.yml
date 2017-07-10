@@ -2,6 +2,7 @@ infrastructure: ^3.9.3
 url_rules:
   proformula:
     - '^/assets/': 'apache'
+    - '^/themes/': 'apache'
 http_settings:
   max_upload_size: "25"
   timezone: "Europe/London"
