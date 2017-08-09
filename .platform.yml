@@ -3,7 +3,7 @@ url_rules:
   proformula:
     - '^/assets/': 'apache'
     - '^/themes/': 'apache'
-    - '^/.well-known/': 'apache'
+    - '^/\\.well-known/': 'apache'
 http_settings:
   max_upload_size: "25"
   timezone: "Europe/London"
