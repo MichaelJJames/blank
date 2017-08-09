@@ -3,7 +3,7 @@ url_rules:
   proformula:
     - '^/assets/': 'apache'
     - '^/themes/': 'apache'
-    - '/.well-known/pki-validation/37C5DB7D88E88AD54C1FBE408DDD1B38FEA32D4549F5673924.txt': 'apache'
+    - '^/.well-known/pki-validation/37C5DB7D88E88AD54C1FBE408DDD1B38FEA32D4549F5673924.txt': 'apache'
 http_settings:
   max_upload_size: "25"
   timezone: "Europe/London"
